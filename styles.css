@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+}
+
+/*                nav                 */
+
+.background-container {
+    background: url("images/earth.jpg") no-repeat center fixed;
+    height: 60vh;
+    display: block;
+}
+
+li a {
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    border: rgba(250, 250, 250, 0.2)solid 1px;
+    height: 85px;
+}
+
+.left {
+    float: left;
+}
+
+.left-links {
+    padding: 30px;
+    margin: 0;
+}
+
+.left-links li {
+    display: inline;
+    padding: 5px;
+}
+
+.center {
+    display: inline-block;
+    padding: 3px;
+    vertical-align: bottom;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #ffcb49;
+}
+
+.center p {
+    margin: 6px;
+}
+
+.right {
+    float: right;
+}
+
+.right-links {
+    padding: 30px;
+    margin: 0;
+}
+
+.right-links li {
+    display: inline;
+    padding: 5px;
+}
+
+/*                  header                     */
+
+.header-container {
+    margin: 65px 190px;
+    font-family: 'Pridi', serif;
+    color: white;
+}
+
+.header-container p {
+    color: rgb(180, 180, 180);
+}
+
+.yellow {
+    color: #ffcb49;
+}
+
+.header-container button {
+    font-size: 14px;
+    margin-right: 8px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: rgba(250, 250, 250, 0.3);
+    color: rgba(250, 250, 250, 0.9);
+    border: solid 1px rgba(220, 220, 220, 0.6);
+}
+
+.header-container button:hover {
+    border: solid 1px rgba(50, 170, 240, 0.9);
+    color: rgba(50, 170, 240, 0.9);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px rgba(252, 223, 60, 0.4)
+}
+
+/*                main                 */
+
+.images-continer {
+    text-align: center;
+    height: 200px;
+    background-color: black;
+}
+
+.left-image {
+    float: left;
+    position: relative;
+    background: url("images/sand.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.center-image {
+    display: inline-block;
+    position: relative;
+    background: url("images/grass.jpg") no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.right-image {
+    float: right;
+    position: relative;
+    background: url("images/water.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.img {
+    transition: box-shadow 0.5s, transform 0.5s;
+    width: 33.3333%;
+    height: 100%;
+    box-shadow: inset 0px 0px 15px rgba(0,0,0,0.5);
+    border: solid 1px rgba(0,0,0,0.5);
+
+}
+
+.img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+    z-index: 5;
+    border-radius: 3px;
+}
+
+.img p {
+    font-size: 2.5em;
+    padding: 62px;
+    color: white;
+}
+
+/*                second background image                           */
+
+.bottom-background-container {
+    background: url("images/earth-upsidedown.jpg")no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.darken {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.darken button {
+    font-size: 14px;
+    margin-right: 8px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: rgba(250, 250, 250, 0.3);
+    color: rgba(250, 250, 250, 0.9);
+    border: solid 1px rgba(220, 220, 220, 0.6);
+}
+
+.darken button:hover {
+    border: solid 1px rgba(50, 170, 240, 0.9);
+    color: rgba(50, 170, 240, 0.9);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px rgba(252, 223, 60, 0.4)
+}
+
+.darken h3 {
+    color:white;
+    padding:70px;
+}
+
+.darken p {
+    color:white;
+    padding:50px;
+}
+
+.darken button {
+    margin:50px;
+}
+
+.bottom-container {
+    width:49.5%;
+}
+
+.iframe {
+    border:1px solid rgba(250,250,0,0.5);
+    margin:70px;
+    
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.footer ul {
+    padding:5px;
+    margin:5px;
+}
+
+.footer ul li {
+    display:inline;
+    padding:10px;
+    color:white;
+}
